@@ -1,0 +1,27 @@
+{
+  "name": "nonname",
+  "version": "0.0.1",
+  "description": "A Game Made in Phaser 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErickMaria/NonName.git"
+  },
+  "keywords": [
+    "game",
+    "phaser",
+    "javascript"
+  ],
+  "author": "Erick Maria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErickMaria/NonName/issues"
+  },
+  "homepage": "https://github.com/ErickMaria/NonName#readme",
+  "dependencies": {
+    "phaser": "^3.15.1"
+  }
+}
