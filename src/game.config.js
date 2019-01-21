@@ -11,9 +11,9 @@ export var loadSceneDefault = {
 export var config =  {
 
     type: Phaser.AUTO,
-    width: 640,
-    height: 360,
-    parent: null,
+    width: 896,
+    height: 504,
+    parent: 'game',
     physics: {
         default: 'arcade',
         arcade: {
@@ -32,15 +32,16 @@ export var config =  {
 
 export var configTest =  {
     type: Phaser.AUTO,
-    width: 640,
-    height: 360,
-    parent: null,
+    width: 896,
+    height: 504,
+    parent: 'game',
     physics: {
         default: 'arcade',
         arcade: {
             gravity: { y: 200 }
         }
     },
+    debug: true,
     scene: [
         //for System
         BootScene,

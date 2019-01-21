@@ -1,14 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>NonName</title>
+
+    <style type="text/css">
+        body {
+            background: #f1f1f1;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        /* #game{
+            width: 70%;
+            height: 70%;
+        } */
+
+        #game > canvas {
+            display: block;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            object-fit: contain;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+
 </head>
+
 <body>
-    <div class="game">
-    </div>
+    <div class="game" id="game"></div>
     <script type="text/javascript" src="./build/game.bundle.js"></script>
 </body>
+
 </html>

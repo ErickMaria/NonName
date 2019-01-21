@@ -8,7 +8,6 @@ export class LoadScene extends Scene{
 
     preload(){
         console.log("Load Scene");
-        console.log(configContext);
     }
 
     create(){

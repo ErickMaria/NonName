@@ -1,9 +1,11 @@
-"use strict"; 
+"use strict";
 
-import { Game } from "phaser"; 
+import { Game } from "phaser";
 import { configContext } from "./game.context";
+import { enableResize, disableResize } from './utils/resize'
 
-var getcontext = document.URL.split("?");
+window.onload = () => {
 
-
-var game = new Game(configContext.getGameConfigContext);
+    window.game = new Game(configContext.getGameConfigContext);
+    enableResize();
+}
