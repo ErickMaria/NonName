@@ -19,7 +19,7 @@ module.exports = {
         fs: "empty"
     },  
 
-    entry: './src/bootstrap.js',
+    entry: './src/game.bootstrap.js',
     
     output: {
       path: path.resolve(__dirname, BUNDLE_PATH),

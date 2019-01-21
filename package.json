@@ -1,7 +1,8 @@
+
 {
   "name": "nonname",
   "version": "0.0.1",
-  "description": "A Game Made in Phaser 3",
+  "description": "A Phaser 3 Basic Project Template",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
@@ -15,6 +16,7 @@
   "keywords": [
     "game",
     "phaser",
+    "phaser 3",
     "javascript"
   ],
   "author": "Erick Maria",
@@ -31,6 +33,7 @@
     "@babel/preset-env": "^7.2.3",
     "babel-loader": "^8.0.4",
     "dotenv": "^6.2.0",
+    "dotenv-cli": "^1.4.0",
     "http-server": "^0.11.1",
     "nodemon": "^1.18.9",
     "uglifyjs-webpack-plugin": "^2.1.1",
